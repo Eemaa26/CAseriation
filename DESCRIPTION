@@ -1,0 +1,18 @@
+Package: CAseriation
+Type: Package
+Title: Contingency table seriation by Correspondence Analysis.
+Version: 1.0
+Date: 2014-09-22
+Author: Gianmarco ALBERTI
+Maintainer: Gianmarco ALBERTI
+    <gianmarcoalberti@tin.it><gianmarco.alberti@um.edu.mt>
+Description: CAseriation allows to sort the rows and columns of the input
+    contingency table according to the scores of rows and columns on the
+    Correspondence Analysis' dimension selected by the user. The package also
+    allows to plot the CA scatterplot of selected dimensions, and to seek for
+    clusters in the dataset. As for seriation, two plots are returned,
+    displaying the sorted contingency table. The results are also exported into
+    an Excel spreadsheet.
+Depends:
+    R (>= 3.1.1),ca,FactoMineR,seriation,xlsx,rJava
+License: GPL2
